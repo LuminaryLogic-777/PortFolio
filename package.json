@@ -12,6 +12,7 @@
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "autoprefixer": "^10.4.7",
+    "caniuse-lite": "^1.0.30001614",
     "custom-cursor-react": "^1.0.5",
     "framer-motion": "^11.1.7",
     "gray-matter": "^4.0.3",
