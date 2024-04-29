@@ -1,0 +1,111 @@
+{
+  "name": "Sonai Barua",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Sonai Barua",
+  "headerTaglineThree": "Software developer",
+  "headerTaglineFour": " based in Kolkata, India.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/LuminaryLogic-777"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/sonai-barua/"
+    },
+    { "id": "3", "title": "Twitter", "link": "https://twitter.com/BaruaSonai" },
+    {
+      "id": "4",
+      "title": "Blog",
+      "link": "https://www.linkedin.com/in/sonai-barua/"
+    },
+    { "id": "5", "title": "Email", "link": "mailto:sonaibarua55@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Billing System",
+      "description": "CRM Software",
+      "imageSrc": "./images/BillBuddy.jpg",
+      "url": "https://bill-ruddy.vercel.app/"
+    },
+    {
+      "id": "2",
+      "title": "MAANG Careers",
+      "description": "Edu-Tech System",
+      "imageSrc": "./images/MaangCareers.jpg",
+      "url": "https://www.maangcareers.com/"
+    },
+    {
+      "id": "3",
+      "title": "Musician Avenue",
+      "description": "Eccomerce System",
+      "imageSrc": "./images/MAvenue.jpg",
+      "url": "https://test.musiciansavenue.com.au/"
+    },
+    {
+      "id": "4",
+      "title": "Brewer Dev",
+      "description": "Food Ordering System",
+      "imageSrc": "./images/BrewersCafe.jpg",
+      "url": "https://brewerscafe.itwprojects.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Software Development",
+      "description": "We specialize in crafting and developing innovative software solutions, focusing on enhancing the user experience and optimizing performance. Our expertise spans across various domains, including online advertising, with a keen emphasis on visual appeal and effectiveness."
+    },
+    {
+      "id": "2",
+      "title": "Web Development",
+      "description": "Our web development services encompass the design and creation of essential brand elements, such as logos, color schemes, typography, and other components. We strive to differentiate your brand from competitors by creating captivating and memorable digital experiences that resonate with your audience."
+    },
+    {
+      "id": "3",
+      "title": "React Js Development",
+      "description": "Leveraging the power of React JS, we build and optimize your online presence to serve as the digital gateway to your business. From crafting responsive interfaces to enhancing website performance, we ensure that your digital platform serves as a robust revenue channel and effectively engages your target audience."
+    },
+    {
+      "id": "4",
+      "title": "MERN Stack Development",
+      "description": "With expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack, we integrate creative design and technical proficiency to develop immersive and dynamic web applications. Our solutions include captivating 3D visualizations that breathe life into your projects, delivering unparalleled user experiences."
+    }
+  ],
+  "aboutpara": "Hi there! I'm Sonai Barua, a dedicated ReactJS Developer passionate about crafting exceptional digital experiences. Currently, I'm refining my skills at Claymind Solutions Pvt Ltd., where I lead teams to deliver projects ahead of schedule, making a significant impact on business objectives. Previously, as a MERN Stack Developer Intern at SysAlgo, I optimized code efficiency and implemented JWT-based authentication. My expertise includes developing EduTech solutions with React.js, Redux Toolkit, RTK Query and Material UI, and architecting e-commerce experiences with React, Redux, and Express.js. Armed with a Master’s in Computer Applications, I've honed skills in JavaScript, Java, ReactJS, Redux, and ExpressJs. Achievements include a global rank in TCS CodeVita Season 10 and recognition as the College Topper in 2023 by Dayananda Sagar University, Bangalore.",
+  "resume": {
+    "tagline": "👋  I'm a Software Developer, ReactJs Developer.",
+    "description": "I specialize in creating top-notch user experiences with React, JavaScript, and various web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "June 2023 - Present",
+        "type": "Full Time",
+        "position": "ReactJs Developer at ClayMind Solutions Pvt Ltd.",
+        "bullets": "Guided a cross-functional team in integrating a new feature with React and Redux-Toolkit., Promptly driving a 30% surge in user engagement within the inital month of implementation."
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "March 2023 - July 2023",
+        "type": "Full Time",
+        "position": "MERN Stack Intern at SysAlgo",
+        "bullets": "Enhancing Scalibility and developer effeciency for improved code maintenance., Improved website loading efficiency 25% by handle optimizing API calls."
+      }
+    ],
+    "education": {
+      "universityName": "Future Institute of Engineering and Managment",
+      "universityDate": "2021-2023",
+      "universityPara": "Master’s in Computer Applications with 9.57/10 CGPA [College Topper]"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Java"],
+    "frameworks": ["React", "NextJs","Redux-Toolkit", "NodeJs", "Express"],
+    "others": ["Postman", "Rest APi", "Git", "OOP Concept"]
+  }
+}
