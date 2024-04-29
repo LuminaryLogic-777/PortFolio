@@ -2,6 +2,7 @@
   "name": "react-portfolio-template",
   "version": "3.0",
   "private": true,
+  "description": "portfolio for my react projects",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
