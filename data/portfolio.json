@@ -23,7 +23,7 @@
     {
       "id": "4",
       "title": "Blog",
-      "link": "https://port-folio-phi-neon.vercel.app/"
+      "link": "/blog"
     },
     { "id": "5", "title": "Email", "link": "mailto:sonaibarua55@gmail.com" }
   ],
