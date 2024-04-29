@@ -10,6 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import aboutImage from "../public/myImage.jpeg"
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -129,14 +130,19 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="flex flex-col items-center justify-center h-screen">
-          <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-            <h1 className="tablet:m-10 text-4xl text-bold">About</h1>
-            <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-4/5">
-              {data.aboutpara}
-            </p>
-          </div>
-        </div>
+      <div className="flex flex-col items-center justify-center h-screen">
+  <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+    <h1 className="tablet:m-10 text-4xl text-bold">About</h1>
+    <div className="flex flex-col items-center">
+      <img src="/myImage.png" alt="About" className="w-64 md:w-96 lg:w-auto max-w-full mb-4" />
+      <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-4/5">
+        {data.aboutpara}
+      </p>
+    </div>
+  </div>
+</div>
+
+
 
         <Footer />
       </div>
