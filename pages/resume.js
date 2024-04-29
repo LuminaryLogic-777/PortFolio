@@ -22,6 +22,13 @@ const Resume = () => {
       router.push("/");
     }
   }, []);
+  const downloadResume = () => {
+    const pdfUrl = "./resume.pdf";
+    const anchor = document.createElement("a");
+    anchor.href = pdfUrl;
+    anchor.download = "resume.pdf";
+    anchor.click();
+  };
   return (
     <>
       {process.env.NODE_ENV === "development" && (
@@ -29,7 +36,14 @@ const Resume = () => {
           <Button onClick={() => router.push("/edit")} type={"primary"}>
             Edit Resume
           </Button>
-          <Button onClick={() => console.log("downloading....")} type={"primary"}>
+          <Button onClick={downloadResume} type={"primary"}>
+            Download Resume
+          </Button>
+        </div>
+      )}
+      {process.env.NODE_ENV === "production" && (
+        <div className="fixed bottom-6 right-6">
+           <Button onClick={downloadResume} type={"primary"}>
             Download Resume
           </Button>
         </div>
