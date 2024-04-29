@@ -40,7 +40,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
     <>
       <div
         className={`${
-          headerVisible ? "" : "hidden"
+          headerVisible ? "transition-opacity duration-500 opacity-100" : "transition-opacity duration-500 opacity-0"
         } block tablet:hidden mt-5`}
       >
         <Popover>
@@ -154,7 +154,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       </div>
       <div
         className={`${
-          headerVisible ? "" : "hidden"
+          headerVisible ? "transition-opacity duration-500 opacity-100" : "transition-opacity duration-500 opacity-0"
         } mt-10 hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
